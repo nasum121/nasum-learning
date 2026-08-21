@@ -113,31 +113,31 @@ Each endpoint maintains (conceptual control block):
 ```mermaid
 mindmap
   root((TCP in Production))
-	Reliability
-	  Retransmission
-	  Cumulative ACK
-	  SACK
-	Ordering
-	  Byte stream
-	  Reassembly
-	Control
-	  Flow control rwnd
-	  Congestion control cwnd
-	Lifecycle
-	  Handshake
-	  Data transfer
-	  Termination
-	  TIME_WAIT
-	Middleboxes
-	  Firewall
-	  NAT
-	  Proxy
-	  Load balancer
-	  VPN tunnel
-	Troubleshooting
-	  Wireshark
-	  Linux ss tcpdump
-	  Multi-point capture
+    Reliability
+      Retransmission
+      Cumulative ACK
+      SACK
+    Ordering
+      Byte stream
+      Reassembly
+    Control
+      Flow control rwnd
+      Congestion control cwnd
+    Lifecycle
+      Handshake
+      Data transfer
+      Termination
+      TIME_WAIT
+    Middleboxes
+      Firewall
+      NAT
+      Proxy
+      Load balancer
+      VPN tunnel
+    Troubleshooting
+      Wireshark
+      Linux ss tcpdump
+      Multi-point capture
 ```
 
 ### 1.6 Misconceptions
